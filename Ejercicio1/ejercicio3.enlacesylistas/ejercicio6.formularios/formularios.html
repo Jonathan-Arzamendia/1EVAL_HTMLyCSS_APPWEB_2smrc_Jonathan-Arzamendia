@@ -8,14 +8,14 @@
 <body>
     <h4>EJERCICIO FORMULARIO</h4>
     <form action="">
-        <p><label for="">Jugador de fútbol</label></p>
-        <input type="text"  minlength="4" placeholder="Indica el nombre del jugador">
+        <p><label for="Name">Jugador de fútbol</label></p>
+        <input type="text"  minlength="4" placeholder="Indica el nombre del jugador" id="Name">
 
-        <p><label for="">Número de dorsal</label></p>
-        <input type="number" placeholder="Indica el número del dorsal">
+        <p><label for="Number">Número de dorsal</label></p>
+        <input type="number" placeholder="Indica el número del dorsal" id="Number">
         
 
-        <p><label for="">Color de equipación</label></p>
+        <p><label for="Color">Color de equipación</label></p>
         <input type="color"
         name="ElegirColor"
         value="#ffffff">
@@ -23,8 +23,8 @@
         name="ElegirColor"
         value="#00ffe5">
 
-        <p><label for="">País de nacimiento</label></p>
-        <select name="País de nacimiento" id="">
+        <p><label for="Pais">País de nacimiento</label></p>
+        <select name="País de nacimiento" id="Pais">
 
             <option value="Nada">...</option>
             <optgroup label="Europa">
@@ -33,7 +33,7 @@
                 <option value="POR">Portugal</option>
             </optgroup>
 
-            <optgroup label="Latinoamérica" id="">
+            <optgroup label="Latinoamérica">
                 <option value="AR">Argentina</option>
                 <option value="COL">Colombia</option>
                 <option value="PRY">Paraguay</option>
@@ -65,8 +65,8 @@
         <p><textarea name="descripción" id="descripción" rows="6"  cols="30"  placeholder="Descripción"></textarea></p>
          
         
-        <p><label for="">Equipo en el que juega</label></p>
-        <select name="menu" required>
+        <p><label for="equipación">Equipo en el que juega</label></p>
+        <select name="menu" required id="equipación">
             <option value="Nada">...</option>
             <option value="Barça">Barça</option>
             <option value="Real Madrid">Real Madrid</option>
@@ -74,27 +74,31 @@
             <option value="Betis">Betis</option>
         </select>
    
-        <p><label for="">Sexo</label></p>
-        <input type="radio" name="hm" value="h"> Hombre
-        <input type="radio" name="hm" value="m"> Mujer
-        <input type="radio" name="hm" value="HL"> Helicóptero Apache 26.000
-        <p><label for="">Coche</label></p>
-        <input type="checkbox" name="Coche" value="S"> Si
-        <input type="checkbox" name="Coche" value="N"> No
-        <input type="checkbox" name="Coche" value="NS"> No lo sé
+        <p><label for="Sexo">Sexo</label></p>
+        <input type="radio" name="hm" value="h" id="Sexo"> Hombre
+        <input type="radio" name="hm" value="m" id="Sexo"> Mujer
+        <input type="radio" name="hm" value="HL" id="Sexo"> Helicóptero Apache 26.000
+        <p><label for="Coche">Coche</label></p>
+        <input type="radio" name="Coche" value="S"  id="Coche"> Si
+        <input type="radio" name="Coche" value="N" id="Coche"> No
+        <input type="radio" name="Coche" value="NS" id="Coche"> No lo sé
         
         
-        <p><label for="">Sitio web</label></p>
-        <input type="url" placeholder="Indica una URL válida">
+        <p><label for="WWW">Sitio web</label></p>
+        <input type="url" placeholder="Indica una URL válida" id="WWW">
 
-        <p><label for="">Correo electrónico</label></p>
-        <input type="email" placeholder="Indica un correo válido">
+        <p><label for="email">Correo electrónico</label></p>
+        <input type="email" placeholder="Indica un correo válido" id="email">
 
-        <p><label for="">Contraseña</label></p>
-        <input type="password" maxlength="12" minlength="6" placeholder="Escriba su contraseña">
+        <p><label for="pass">Contraseña</label></p>
+        <input type="password" maxlength="12" minlength="6" placeholder="Escriba su contraseña" id="pass">
 
-        <p><label for="">Fin del formulario</label></p>
+        <p>Fin del formulario</p>
+        <input type="submit" maxlength="12" minlength="6" id="fin">
+
+        <p></p>
         <input type="submit" maxlength="12" minlength="6">
+
 
     </form>
 </body>
