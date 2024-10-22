@@ -1,0 +1,22 @@
+
+/*SELECTOR UNIVERSAL*/
+*{
+    background-color: forestgreen;
+}
+
+/*SELECTOR DE ETIQUETA*/
+h4{
+    background-color: red;
+}
+
+/*SELECTOR DE CLASE*/
+p.fazul{
+    background-color: mediumseagreen;
+}
+
+/*SELECTOR DE ID*/
+p#fnaranja{
+    background-color: violet;
+}
+
+/*SELECTOR DESCENDIENTE*/
