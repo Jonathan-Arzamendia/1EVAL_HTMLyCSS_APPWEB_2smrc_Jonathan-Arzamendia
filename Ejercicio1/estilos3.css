@@ -2,7 +2,25 @@ body {
     text-align: center;
 }
 
-p.p2 {
+p.p5 {
     text-align:justify ;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    text-shadow: gray 10px;
 }
 
+p.p2 {
+    word-spacing: 10px;
+}
+
+p.p3{
+    text-shadow: gray 1px -4px;
+}
+
+h1.title {
+    text-shadow: red  2px -3px;
+}
+
+@font-face{
+    font-family: "especial";
+}
