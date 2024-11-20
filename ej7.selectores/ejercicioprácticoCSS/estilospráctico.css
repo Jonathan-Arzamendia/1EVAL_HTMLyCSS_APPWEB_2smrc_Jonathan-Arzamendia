@@ -1,6 +1,113 @@
-body{
-    background-color: aquamarine;
-    padding: 30px;
+body {
+    background-color: darkgrey;
 }
 
 
+
+
+div.container {
+    width: 75%;
+    background-color: lightgreen;
+    height: 600px;
+    position: relative;
+    top: 30px;
+    left: 15%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+div.fixed-sidebar{
+    width: 7%;
+    height: 350px;
+    border: black 3px solid;
+    text-align: center;
+    position: fixed;
+    top: 180px;
+    left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.container nav{
+    background-color: grey;
+    color: white;
+    top: 0px;
+    position: sticky;
+    z-index: 10px;
+    
+}
+
+nav div {
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 15px;
+    
+}
+
+.fixed-sidebar img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.fixed-sidebar li{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+ul {
+    padding-left: 0px;
+}
+
+
+figure {
+    border: 3px solid black;
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    position: absolute;
+    
+    
+    
+}
+
+figure img{
+    height: 110px ;
+   
+   
+}
+
+#li1{
+    rotate: -30deg;
+    top: 200px;
+    left: 300px;
+    z-index: 4;
+}
+
+#li2{
+    rotate: 30deg;
+    top: 200px;
+    left: 400px;
+    z-index: 3;
+}
+
+#li3{
+    rotate: -30deg;
+    top: 200px;
+    left: 500px;
+    z-index: 2;
+}
+
+#li4{
+    rotate: 30deg;
+    top: 200px;
+    left: 600px;
+    z-index: 1;
+}
