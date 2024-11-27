@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba examen</title>
+    <link rel="stylesheet" href="estilospractica.css">
+</head>
+<body>
+    <h3>EJERCICIO DE PRÁCTICA PARA EXAMEN</h3>
+
+    <table>
+        <th>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+
+
+        </th>
+        <tbody>
+
+        <tr>
+            <td>15:30</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+
+
+        <tr>
+            <td class="col1">16:25</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+
+
+
+        <tr>
+            <td style="background-color: chartreuse;">17:20</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+
+
+        <tr>
+            <td style="background-color: darkorange;">18:15</td>
+            <td colspan="3">18</td>
+            <td class="col2">18</td>
+            <td>19</td>
+            
+        </tr>
+
+        <form actions>
+
+        </form>
+
+    </tbody>
+    </table>
+
+    <form action="">
+        <p><label for="números">Selecciona un número</label></p>
+        <select name="unacifra">
+            <option value="nada">...</option>
+        <optgroup label="Numeros de una cifra">
+        <option value="primero">1</option>
+        <option value="segundo">2</option>
+        <option value="tercero">3</option>
+    </optgroup>
+    <optgroup label="Numeros de dos cifras">
+        <option value="diez">10</option>
+        <option value="veinte">20</option>
+        <option value="treinta">30</option>
+        
+    </optgroup>
+    </select>
+
+    <p><label for="genero">¿Qué genero eres?</label></p>
+    <input type="radio" value="h" name="sx" id="Sexo">Masculino
+    <input type="radio" value="m" name="sx" id="Sexo">Femenino
+    <input type="radio" value="o" name="sx" id="Sexo">Prefiero no decirlo
+
+    <p><label for="sentimientos">¿Cómo te sientes?</label></p>
+    <input type="checkbox" value="bn" name="s" id="1">Bien
+    <input type="checkbox" value="mal" name="s" id="2">Mal
+    <input type="checkbox" value="rl" name="s" id="3">Regular
+    <input type="checkbox" value="ns" name="s" id="4">No sabría decirlo
+
+    <p><label for="sentimientos">Describe como te sientes</label></p>
+    <textarea name="Descripción" id="Descripcion" placeholder="Tranquilo, todo estará bien" rows="6" cols="30" maxlength="1000" minlength="3"></textarea>
+
+    <p><input type="submit" value="Envialo" maxlength="12" id="fin" minlength="6"></p>
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
